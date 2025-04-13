@@ -43,7 +43,7 @@ export default function GameLandingPage() {
         {/* Wrap the Image in a Link to /play */}
       <a href="https://minecraft.com" target="_blank" rel="noopener noreferrer">
         <Image
-          src="/Minecraft.jpeg"
+          src="/minecraft.jpeg"
           alt="Game Hero"
           width={250}
           height={150}
