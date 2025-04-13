@@ -2,7 +2,6 @@ import type React from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Download, Heart, Play, Share2 } from "lucide-react"
-import SandGame from "@/components/sand-game"
 
 export default function MinecraftPage() {
   return (
@@ -115,9 +114,6 @@ export default function MinecraftPage() {
             </p>
 
             {/* Sand Game Component */}
-            <div className="w-full h-[500px] bg-black rounded-lg overflow-hidden mb-8">
-              <SandGame />
-            </div>
           </div>
 
           <div className="lg:col-span-1">
